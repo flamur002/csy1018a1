@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 20% 75% 5%;
+    grid-template-areas: "header header" "aside main" "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+aside{
+    grid-area: aside
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+li{
+    padding:5px
+}
