@@ -1,7 +1,11 @@
+html{
+    font-family: 'PT Sans', sans-serif;
+}
+
 .body1 {
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows:10ch 243ch 4ch;  
+    grid-template-rows:10ch 225ch 4ch;  
     grid-template-areas: "header header" "aside main" "footer footer";
 }
 
@@ -15,14 +19,14 @@
 .body3 {
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows:10ch 60ch 4ch;  
+    grid-template-rows:10ch 55ch 4ch;  
     grid-template-areas: "header header" "aside main" "footer footer";
 }
 
 .body4 {
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows:10ch 60ch 4ch;  
+    grid-template-rows:10ch 55ch 4ch;  
     grid-template-areas: "header header" "aside main" "footer footer";
 }
 
@@ -56,7 +60,7 @@ main{
 
 footer{
     grid-area: footer;
-    background-color: rgb(13, 0, 24);
+    background-color: rgb(0, 2, 36);
     color: cornsilk;
     padding-bottom: 5ch;
  padding-left: 1ch;
@@ -73,10 +77,12 @@ aside li{
 
 a{
     text-decoration: none;
+    color: black;
 }
 a:hover{
      font-size: x-large;
-     color: rgb(83, 90, 150);
+
+     color: black;
 }
 
 form{
@@ -84,7 +90,7 @@ form{
     width: 400px;
     grid-template-columns: 50% 50%;
     align-items: center;
-    grid-gap: 0.5em;
+    grid-gap: 0.6em;
 }
 
 .submit{
@@ -99,9 +105,9 @@ grid-column: 2;
 
 
 .class2{
-padding-left: 23ch;
+padding-left: 20ch;
 padding-right: 2ch;
-padding-top: 6ch;
+padding-top: 10ch;
 }
 
 .class1{
