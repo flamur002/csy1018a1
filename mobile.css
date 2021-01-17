@@ -79,6 +79,7 @@ a{
 aside{
     font-size: xx-large;
     padding: 1ch;
+    color: white;
 }
 
 aside:target{
