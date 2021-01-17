@@ -71,9 +71,12 @@ aside li{
 
 }
 
+a{
+    text-decoration: none;
+}
 a:hover{
      font-size: x-large;
-     color: rgb(240, 3, 3);
+     color: rgb(83, 90, 150);
 }
 
 form{
