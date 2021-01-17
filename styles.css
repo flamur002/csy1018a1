@@ -1,27 +1,55 @@
 body {
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows: 20% 75% 5%;
+    grid-template-rows: 15% 80% 5%;  
     grid-template-areas: "header header" "aside main" "footer footer";
 }
 
 header{
     grid-area: header;
-    background-color: aquamarine;
+    background-color: #2460A7FF;
+    padding-left: 4ch;
+    font-size: large;
+    color: cornsilk;
 }
 
 aside{
-    grid-area: aside
+    grid-area: aside;
+    background-color: #B3C7D6FF;
 }
 
 main{
+    padding-left: 2ch;
     grid-area: main;
+    background-color: #85B3D1FF;
+    font-size: large;
 }
 
 footer{
     grid-area: footer;
+    background-color: rgb(13, 0, 24);
+    color: cornsilk;
+ padding-bottom: 5ch;
+ padding-left: 1ch;
+
 }
 
-li{
-    padding:5px
+aside li{
+    padding:15px;
+    font-size:larger;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+form{
+    display:grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+}
+
+.submit{
+grid-column: 2;
 }
