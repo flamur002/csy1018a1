@@ -56,7 +56,14 @@ grid-column: 2;
 
 .columns{
     display: grid;
-    grid-template-columns: 85% 15%;
-    grid-template-rows: 15% 80% 5%; 
-    grid-template-areas: 
+    grid-template-columns: 65%  35%;
 }
+
+
+
+.class2{
+padding-left: 23ch;
+padding-right: 2ch;
+padding-top: 6ch;
+}
+
