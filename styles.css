@@ -1,9 +1,38 @@
-body {
+.body1 {
     display: grid;
     grid-template-columns: 15% 85%;
-    grid-template-rows: 15% 80% 5%;  
+    grid-template-rows:10ch 243ch 4ch;  
     grid-template-areas: "header header" "aside main" "footer footer";
 }
+
+.body2 {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows:10ch 65ch 4ch;  
+    grid-template-areas: "header header" "aside main" "footer footer";
+}
+
+.body3 {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows:10ch 60ch 4ch;  
+    grid-template-areas: "header header" "aside main" "footer footer";
+}
+
+.body4 {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows:10ch 60ch 4ch;  
+    grid-template-areas: "header header" "aside main" "footer footer";
+}
+
+.body5 {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows:10ch 60ch 4ch;  
+    grid-template-areas: "header header" "aside main" "footer footer"; 
+}
+
 
 header{
     grid-area: header;
@@ -29,8 +58,9 @@ footer{
     grid-area: footer;
     background-color: rgb(13, 0, 24);
     color: cornsilk;
- padding-bottom: 5ch;
+    padding-bottom: 5ch;
  padding-left: 1ch;
+ text-align: right;
 
 }
 
@@ -67,3 +97,10 @@ padding-right: 2ch;
 padding-top: 6ch;
 }
 
+.class1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: left;
+    grid-gap: 2em;
+    padding-bottom: 2ch;
+}
