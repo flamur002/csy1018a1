@@ -113,7 +113,6 @@ padding-top: 10ch;
 .class1{
     display: grid;
     grid-template-columns: 30% 70%;
-    align-items: left;
     grid-gap: 2em;
     padding-bottom: 2ch;
 }

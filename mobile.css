@@ -28,7 +28,7 @@ border-radius: 0.1em;
 header{
     grid-area: header;
     background-color: #2460A7FF;
-    padding-left: 4ch;
+    padding-left: 8ch;
     font-size: large;
     color: cornsilk;
 
@@ -51,9 +51,7 @@ footer{
 
 }
 
-h1{
-    padding-left: 4ch;
-}
+
 
 form{
     display:grid;
@@ -77,22 +75,9 @@ a{
     grid-template-columns: 65%  35%;
 }
 
-.class2{
-    padding-left: 20ch;
-    padding-right: 2ch;
-    padding-top: 10ch;
-    }
-
-.class1{
-        display: grid;
-        grid-template-columns: 40% 60%;
-        align-items: left;
-        grid-gap: 2em;
-        padding-bottom: 2ch;
-}
 
 aside{
-    font-size: xxx-large;
+    font-size: xx-large;
     padding: 1ch;
 }
 
