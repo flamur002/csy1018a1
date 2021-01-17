@@ -53,3 +53,10 @@ form{
 .submit{
 grid-column: 2;
 }
+
+.columns{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 15% 80% 5%; 
+    grid-template-areas: 
+}
