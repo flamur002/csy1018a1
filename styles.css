@@ -68,8 +68,12 @@ aside li{
     padding:15px;
     font-size:larger;
     list-style-type: none;
-    text-decoration: none;
 
+}
+
+a:hover{
+     font-size: x-large;
+     color: rgb(240, 3, 3);
 }
 
 form{
